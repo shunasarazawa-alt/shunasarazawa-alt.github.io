@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "ai.css">
+        <title>
+            Aboutme
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                The societal and human implications of digital transformation (DX)
+            </h1>
+        </header>
+        <main>
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>Digital transformation is changing how we live and work. While it makes daily tasks faster and more convenient, it also creates a gap for people who are not used to modern technology.</p>
+                <a href = "https://www.sciencedirect.com/topics/computer-science/digitalization" title = "Link to a website about digitalization" >
+                    Digitalization
+                </a>
+                <img src = "digitalization.jpeg" alt = "Digitalization image" />
+            </section>
+            <section id = "good-impact">
+                <h2>
+                    Good impacts
+                </h2>
+                <ul>
+                    <li>Faster communication and easy access to information from anywhere.</li>
+                    <li>Automation of daily routines and paperwork saves time.</li>
+                </ul>
+            </section>
+            <section id = "bad-impact">
+                <h2>
+                    Bad impacts
+                </h2>
+                <ul>
+                    <li>Digital divide: Through volunteering at Computeas in Durham Clayport Library, I noticed many elderly people struggle as basic services move online.</li>
+                    <li>Less face-to-face interaction and higher risks of online scams and privacy issues.</li>
+                </ul>
+            </section>
+            <section id="segmentation_table">
+                <h2>Impacts based on age </h2>
+                <div class="table-wrap">
+                    <table>
+                    <tbody>
+                    <tr id ="positive">
+                        <th scope="row">Positives</th>
+                        <td>Global connection & learning</td>
+                        <td>Remote work & efficiency</td>
+                        <td>Convenient online shopping/banking</td>
+                        <td>Staying in touch with family</td>
+                    </tr>
+                    <tr id = "negative">
+                        <th scope="row">Negatives</th>
+                        <td>Screen addiction & distraction</td>
+                        <td>Work-life balance blur</td>
+                        <td>Adapting to fast system changes</td>
+                        <td>Exclusion from essential services</td>
+                    </tr>
+                    <tr id="age-label">
+                        <th scope="row">Age</th>
+                        <td>0~29</td>
+                        <td>30~49</td>
+                        <td>50~69</td>
+                        <td>70~</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="thought-submission">
+                <h2>Share us your opinion</h2>
+                <p>
+                    Please let us know what your thoughts are!
+                </p>
+                <form>
+                    <div id = "name">
+                    <label for="username">What is your name?: </label>
+                    <input id = "username" type="text" name = "username">
+                    </div>
+
+                    <fieldset id = "stance">
+                        <legend>Do you think digitalization is: </legend>
+                        <input type = "radio" name ="stance" id = "good" value="good">
+                        <label for="good" >Good</label>
+
+                        <input type = "radio" name ="stance" id = "bad" value = "bad">
+                        <label for="bad" >Bad</label>
+                        
+                        <input type = "radio" name ="stance" id = "neither" value = "neither">
+                        <label for="neither" >Neither</label>
+                    </fieldset>
+                    <textarea  name ="thought" rows="5" placeholder = "What is your thought about digitalization?"></textarea>
+
+                    <input id="btn-submission" type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Shuna Sarazawa</p>
+        </footer>
+
+    </body>
+</html>
