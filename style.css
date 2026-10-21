@@ -1,0 +1,90 @@
+body {
+  background-color: #8de7e4;
+  margin: 0;
+  /* デジタル感がありつつ、すっきり整うスタック */
+  font-family: "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.01em; /* ほんの少し文字間を広げるとテック感が増す */
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+
+main {
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  border-bottom: 2px solid #1e293b;
+  padding-bottom: 5px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  border: 1px solid #333333;
+  padding: 8px;
+  text-align: center;
+}
+
+#age-label {
+  background-color: #eeeeee;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+#name {
+  margin-bottom: 15px;
+}
+
+#stance {
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  display: block;
+  padding: 8px 20px;
+  cursor: pointer;
+}
