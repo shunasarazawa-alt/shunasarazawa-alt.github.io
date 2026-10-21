@@ -1,9 +1,7 @@
 body {
   background-color: #8de7e4;
   margin: 0;
-  /* デジタル感がありつつ、すっきり整うスタック */
-  font-family: "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
-  letter-spacing: 0.01em; /* ほんの少し文字間を広げるとテック感が増す */
+  font-family: "SF Mono", Monaco, Menlo, Consolas, "Courier New", monospace;
   line-height: 1.6;
 }
 
@@ -87,4 +85,10 @@ form input[type="submit"] {
   display: block;
   padding: 8px 20px;
   cursor: pointer;
+}
+
+ul li{
+    list-style-type: square;
+    margin-bottom: 8px;      /* 項目ごとの縦の隙間 */
+  line-height: 1.6;
 }
